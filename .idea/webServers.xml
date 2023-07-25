@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c040b98c-262f-4254-ac9b-1ccacb76d870" name="procurementDev">
+        <fileTransfer rootFolder="/var/www/magento" accessType="SFTP" host="35.245.229.183" port="22" sshConfigId="dc2f0c02-f702-4f3b-8d02-03f7dac59b8f" sshConfig="procurementDev" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
